@@ -1,0 +1,572 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/headerPicture.jpg);
+	background-position: center;
+	background-size: cover;
+	height:105vh;	
+}
+
+.main-navigation
+{
+	float: right;
+	list-style: none;
+	margin-top:30px;
+}
+
+.main-navigation li
+{
+	display: inline-block;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.main-navigation li a
+{
+	color:white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size:18px;
+}
+
+.main-navigation li.active a
+{
+	border: 2px solid white;
+}
+
+.main-navigation li a:hover
+{
+	border: 2px solid white;
+}
+
+.logo img
+{	
+	margin-left:-32px;
+	float: left;
+	width: 140px;
+	height: auto;	
+}
+
+body
+{
+	background:white;
+	padding-left:0px;
+}
+
+.row
+{
+	max-width: 1200px;
+	margin-top:0;	
+}
+
+.main-title-pages
+{
+	position: absolute;
+	width:1200px;
+	height: 200px;
+	top:50%;
+	left:2%;
+	margin-left: 0px;
+	margin-top: -40px;
+	margin-right: -5px;
+	margin-bottom:-5px;
+}
+
+.main-title-pages h1
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom:0px;	
+	
+}
+
+.title
+{
+	font-family:sans-serif;
+	font-size:50px;
+	text-align:center;
+	padding:50px;
+	padding-left:50px;
+	padding-right:50px;
+	border:5px solid grey;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	margin-left:200px;
+	margin-right:120px;
+	
+}
+
+.mainAboutUs
+{
+	font-family:sans-serif;
+	font-size:25px;
+	text-align:left;
+	padding-left:200px;
+	padding-right:120px;
+	padding-bottom:80px;
+	padding-top:50px;
+}
+
+.contactTitle 
+{
+	font-family:sans-serif;
+	font-size:40px;
+	text-align:center;
+	padding:50px;
+	padding-left:50px;
+	padding-right:50px;
+	border:5px solid grey;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	margin-left:120px;
+	margin-right:120px;
+}
+
+.mainContactUs
+{
+	padding:50px;
+}
+
+.mainContactUs .contactMessage
+{
+	font-family:sans-serif;
+	font-size:28px;
+	text-align:center;
+	padding-bottom:20px;
+	margin-left:150px;
+	margin-right:150px;
+}
+
+.mainContactUs .number .numberTitle
+{
+	font-family:sans-serif;
+	font-size:20px;
+	text-align:left;
+	padding:10px;
+	padding-bottom:10px;
+	margin-left:50px;
+}
+
+.mainContactUs .number .phone
+{
+	font-family:sans-serif;
+	font-size:20px;
+	text-align:left;
+	padding:10px;
+	padding-bottom:20px;
+	margin-left:50px;
+}
+
+.mainContactUs .emailAdress .emailTitle
+{
+	font-family:sans-serif;
+	font-size:20px;
+	text-align:left;
+	padding:10px;
+	padding-bottom:20px;
+	margin-left:50px;
+}
+
+.mainContactUs .emailAdress .email
+{
+	font-family:sans-serif;
+	font-size:20px;
+	text-align:left;
+	padding:10px;
+	padding-bottom:20px;
+	margin-left:50px;
+}
+
+.mainContactUs .location .locationTitle
+{
+	font-family:sans-serif;
+	font-size:20px;
+	text-align:left;
+	padding:10px;
+	padding-bottom:20px;
+	margin-left:50px;
+}
+
+.mainContactUs .location .address
+{
+	font-family:sans-serif;
+	font-size:20px;
+	text-align:left;
+	padding:10px;
+	padding-bottom:20px;
+	margin-left:50px;
+}
+
+.mainContactUs .contactGroup
+{
+	padding:50px;
+}
+
+.socials .socialTitle
+{
+	font-family:sans-serif;
+	font-size:25px;
+	margin-left:700px;
+	margin-top:-350px;
+}
+
+.socials .facebook img
+{
+	width:60px;
+	height:60px;
+	padding:10px;
+	margin-left:700px;
+	margin-top:20px;
+}
+
+.socials .twitter img
+{
+	width:60px;
+	height:60px;
+	padding:10px;
+	padding-right:0px;
+	margin-left:850px;
+	margin-top:-160px;
+}
+
+.socials .instagram img
+{
+	width:60px;
+	height:60px;
+	padding:10px;
+	margin-left:1000px;
+	margin-right:-0px;
+	margin-bottom:-50px;
+	margin-top:-80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#mainContainer
+{
+	width:900px;
+	height:700px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#mainContainer #left
+{
+	width:580px;
+	height:750px;
+	float:left;
+}
+
+
+
+.books
+{
+	
+}
+
+.description
+
+#book1 
+{
+	
+}
+
+
+
+
+/* 
+
+#mainContainer #right
+{
+	width:620px;
+	height:750px;
+	float: right;
+	margin-left:1000px;
+	margin-right:-320px;
+	margin-top:-750px;
+	margin-bottom:-650px;
+}
+
+.book1 img
+{
+	width:160px;
+	height:220px;
+	margin-top:50px;
+}
+
+.book2 img
+{
+	width:160px;
+	height:220px;
+	margin-top:50px;
+	margin-left:20px;
+	margin-bottom:-100px;
+}
+
+.book3 img
+{
+	width:160px;
+	height:220px;
+	margin-top:60px;
+	margin-bottom:-300px;
+}
+
+.book4 img
+{
+	width:160px;
+	height:220px;
+	margin-left:20px;
+	margin-top:130px;
+	margin-right:20px;
+}
+
+.decription1
+{
+	font-family: sans-serif;
+	font-size:15px;
+	text-align:left;
+	margin-left:200px;
+	margin-right:10px;
+	margin-top:-220px;
+	margin-bottom:50px;
+	
+}
+
+.decription2
+{
+	font-family: sans-serif;
+	font-size:15px;
+	text-align:left;
+	margin-left:220px;
+	margin-top:-130px;
+}
+
+.decription3
+{
+	font-family: sans-serif;
+	font-size:15px;
+	text-align:left;
+	margin-left:200px;
+	margin-right:10px;
+	margin-top:80px;
+}
+
+.decription4
+{
+	font-family: sans-serif;
+	font-size:15px;
+	text-align:left;
+	margin-left:220px;
+	margin-top:-220px;
+	margin-right:20px;
+	margin-bottom:70px;
+}
+
+#payButton1
+{
+	font-size:18px;
+	text-decoration:none;
+	border:2px solid;
+	border-radius:15px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left: 320px;
+	margin-top:-20px;
+	margin-bottom:00px;
+}
+
+#payButton2
+{
+	font-size:18px;
+	text-decoration:none;
+	border:2px solid;
+	border-radius:15px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left: 350px;
+	margin-top:30px;
+	margin-bottom:-60px;
+}
+
+#payButton3
+{
+	font-size:18px;
+	text-decoration:none;
+	border:2px solid;
+	border-radius:15px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left: 320px;
+	margin-top:50px;
+	margin-bottom:-60px;
+}
+
+#payButton4
+{
+	font-size:18px;
+	text-decoration:none;
+	border:2px solid;
+	border-radius:15px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left: 350px;
+	margin-right:0px;
+	margin-top:-440px;
+	margin-bottom:-50px;
+}
+ */
+
+/* .payTitle h1
+{
+	font-family:sans-serif;
+	font-size:35px;
+	padding:80px;
+	padding-left:250px;
+	border-bottom:3px solid grey;
+}
+
+.formInput
+{
+	padding:50px;
+}
+
+.formInput .cardNumber
+{
+	padding:30px;	
+}
+
+.formInput .expiryDate
+{
+	padding:30px;
+}
+
+.formInput .securityCode
+{
+	padding:30px;
+}
+
+.formInput .checkButton
+{
+	padding:10px;
+	font-size:20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+.successful
+{
+	padding:20px;
+}
+
+.successful .message
+{
+	font-family:sans-serif;
+	font-size:25px;
+	position: center;
+	padding:20px;
+	border-bottom:2px solid grey;
+	margin-bottom:150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media max-width:650px{
+	section{
+		width:95%
+	}
+	font:1em ->1.2em
+	padding 
+	margin
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

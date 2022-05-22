@@ -1,0 +1,146 @@
+<head>
+	<title>The Book Shop</title>
+	<link href="Style.css" rel="stylesheet" type="text/css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script src='payingForm.js'></script>
+</head>
+
+<body>
+	<header>
+		<section class="row">
+			<section class="logo">
+				<img src="images/bookLogo.jpg">
+			</section>	
+			
+			<ul class="main-navigation">
+				<li class="active"><a href="Index.html"> HOME </a></li>
+				<li><a href="Page2.html"> ABOUT US </a></li>
+				<li><a href="Page3.html"> CONTACT US </a></li>
+			</ul>
+		</section>
+		
+		<div class="main-title-pages">
+			<h1>The book Shop</h1>
+		</div>
+	</header>
+	
+	<section class="payTitle">
+		<h1>Payment Options</h1>
+	</section>
+	<br><br>
+	
+	<form onsubmit="return validation()" action="thanks.html" >
+		<h1>Owner</h1>
+		<input type="text" id="owner" /><br><br>
+		<h1>CVV</h1>
+		<input type="number" id="CVV" size="3"/><br><br>
+		<h1>Card Number</h1>
+		<input type="number" id="cardNumber" size="16"/><br><br>
+		<h1>Expiration Date</h1>
+		<input type="number" id="expiryMonth" placeholder="month"size="2"/><br><br>
+		<input type="number" id="expiryYear" placeholder="year"size="2"/><br><br>
+		
+		<button type="submit">Submit</button>
+	</form>
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- 
+	        <div class="creditCardForm">
+            <div class="heading">
+                <h1>Confirm Purchase</h1>
+            </div>
+            <div class="payment">
+                <form>
+                    <div class="form-group owner">
+                        <label for="owner">Owner</label>
+                        <input type="text" class="form-control" id="owner">
+                    </div>
+                    <div class="form-group CVV">
+                        <label for="cvv">CVV</label>
+                        <input type="text" class="form-control" id="cvv">
+                    </div>
+                    <div class="form-group" id="card-number-field">
+                        <label for="cardNumber">Card Number</label>
+                        <input type="text" class="form-control" id="cardNumber">
+                    </div>
+                    <div class="form-group" id="expiration-date">
+                        <label>Expiration Date</label>
+                        <select>
+                            <option value="01">January</option>
+                            <option value="02">February </option>
+                            <option value="03">March</option>
+                            <option value="04">April</option>
+                            <option value="05">May</option>
+                            <option value="06">June</option>
+                            <option value="07">July</option>
+                            <option value="08">August</option>
+                            <option value="09">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                        <select>
+                            <option value="16"> 2016</option>
+                            <option value="17"> 2017</option>
+                            <option value="18"> 2018</option>
+                            <option value="19"> 2019</option>
+                            <option value="20"> 2020</option>
+                            <option value="21"> 2021</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="credit_cards">
+                        <img src="images/visa.jpg" id="visa">
+                        <img src="images/mastercard.jpg" id="mastercard">
+                        <img src="images/amex.jpg" id="amex">
+                    </div>
+                    <div class="form-group" id="pay-now">
+                        <button type="submit" class="btn btn-default" id="confirm-purchase">Confirm</button>
+                    </div>
+                </form>
+            </div>
+        </div> -->
+	
+	
+	<!-- <section class="payingContainer"></section>
+	
+	<section class="payTitle">
+		<h1>Payment Options</h1>
+	</section>
+	
+	
+	<form class='formInput'>
+	
+		<section class='cardNumber'>
+			<section class='title'>Card Number</section><input type='number' id='cardNum' size=20 />
+		</section>
+		<br>
+		<section class='expiryDate'>
+			<section class='title'>Expiration Date</section><input type='number' id='ExpiryDate' size=5 />
+		</section>
+		<br>
+		<section class='securityCode'>
+			<section class='title'>Security Code</section><input type='number' id='SecurityCode' size=5/>
+		</section>
+		
+		<input class='checkButton' type='button' value='Validate' id='button'>
+				
+	</form>
+		
+	</section>	
+		
+		 -->
+	
+		
+	<footer id="footer">
+			<div class="copyright">
+				<p>Copyright &copy; 2021, Book Club</p>
+			</div>
+			<br>				
+	</footer>		
+</body>
